@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    </head>
+    <body style="display: flex; align-items: center; justify-content: center;">
+        <div>
+            <table id="tblRespueta">
+                <tr>
+                    <td><b>SU NOMBRE:</b></td>
+                    <td><label id="lblNombre"></label></td>
+                </tr>
+                <tr>
+                    <td><b>SU NACIMIENTO:</b></td>
+                    <td><label id="lblNacimiento"></label></td>
+                </tr>
+                <tr>
+                    <td><b>SU SUELDO:</b></td>
+                    <td><label id="lblSueldo"></label></td>
+                </tr>
+            </table>
+            <table id="tblDatos">
+                <tr>
+                    <td colspan="2"><h3>INGRESE LOS DATOS CORRECTOS</h3></td>
+                </tr>
+                <tr>
+                    <td><b>NOMBRE:</b></td>
+                    <td><input type="text" id="txtNombre"></td>
+                </tr>
+                <tr>
+                    <td><b>NACIMIENTO:</b></td>
+                    <td><input type="text" id="txtNacimiento"></td>
+                </tr>
+                <tr>
+                    <td><b>SUELDO:</b></td>
+                    <td><input type="text" id="txtSueldo"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center><input type="button" value="Enviar Datos" onclick="enviarDatos()"></center></td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="jquery/js/jquery-3.7.0.min.js"></script>    
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
